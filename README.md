@@ -43,16 +43,3 @@ The gain ratio is a little extension to the info_gain(). Gain ratio is given as 
 The validation function is used to find the tree that provides best score on a validation dataset getting trained on a particular training dataset. The input to the function is a list of dataset. One is picked, in round robin fashion, to be the validation set and the remaining are merged to form a training set for the training of the tree.
 
 The output of the validation function is the tuple with references of the trees (id3 & c4.5) having best f1 score over a validation set.
-
-###	Running steps:
-
-1.) Run the Decision_tree.ipynb in Jupiter notebook.
-2.) The training/test dataset is available in Data folder. Note that training data is divided in 10 equal parts for cross validation. At each iteration of cross validation we use 9 training dataset and reserve the last for validation.
-3.) The program imports all the training/testing dataset as step 1
-4.) At step 2 it prepares two best trained trees (id3 & c4.5).
-5.) At step 3 it computes and outputs the F1 score for both trees using test dataset.
-
-###	Final output:
-F1 score on test dataset using id3 algorithm is:  1.0
-F1 score on test dataset using C4.5 algorithm is:  1.0
-
