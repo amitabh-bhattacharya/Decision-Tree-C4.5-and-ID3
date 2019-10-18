@@ -1,4 +1,4 @@
-# Decision tree (C4.5 and ID3) program explanation:
+## Decision tree (C4.5 and ID3) program explanation:
 
 ###	Classes:
 
