@@ -1,16 +1,6 @@
 ## Decision tree (C4.5 and ID3):
 
-In this project, Quinlan’s ID3 and C4.5 decision tree classifiers are implemented using python language. Once implemented, they are experimented on the Mushroom dataset (https://archive.ics.uci.edu/ml/datasets/mushroom) from the University of California Irvine Machine Learning Repository.
-
-## Requirements fulfilled:
-
-1. The program implements Quinlan’s ID3 and C4.5 decision tree learning algorithms, where the IMPORTANCE method would be based on information gain and gain ratio, respectively.
-
-2. For both ID3 and C4.5, the program implements a 10-fold cross validation process over the training set, the best model is picked with the highest F1 score.
-
-3. Finally it is run on the testing set and the F1 score is reported.
-
-4. To ensure non-randomness, the 10 partitions used in cross validation are provided as 10 files in Data folder.
+In this project, Quinlan’s ID3 and C4.5 decision tree classifiers are implemented using python language. Once implemented, they are experimented on the Mushroom dataset (https://archive.ics.uci.edu/ml/datasets/mushroom) from the University of California Irvine Machine Learning Repository.The methods used for ID3 and C4.5 are Information Gain and Gain ratio respectively. For both ID3 and C4.5, the program implements a 10-fold cross validation process over the training set, the best model is picked with the highest F1 score. Finally it is run on the testing set and the F1 score is reported.
 
 ## Program explanation:
 
