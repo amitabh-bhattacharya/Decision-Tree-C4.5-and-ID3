@@ -13,8 +13,7 @@ The print() function prints the tree on which it is called.
 
 1.) fit_dt(df, algorithm) - 
 This is the function that creates the decision tree and gets trained on the training dataset provided as input (df here). algorithm can take 2 possible values i.e. 'id3'/'c4.5' and the default is 'id3'. It implements the Quinlan's ID3/C4.5 decision tree respectively. The output of the function is the reference to the root node of the trained tree.
-example run - 
-tree = fit_dt(train, algorithm = 'c4.5')
+
 2.) entropy(series) -
 This function takes a series as input and computes/returns the entropy of the collection as output. This function is frequently called from other functions like info_gain() or gain_ratio() to obtain the entropy information.
 
