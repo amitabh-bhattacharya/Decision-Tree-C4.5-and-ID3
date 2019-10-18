@@ -4,7 +4,7 @@ In this project, I implemented two decision tree classifiers, Quinlan’s ID3 an
 
 I used the UCI Mushroom (https://archive.ics.uci.edu/ml/datasets/mushroom) datasets for this project. This dataset contains about 8124 mushroom examples over 22 categorical attributes, with each example labeled either edible ("e") or poisonous ("p"). In this dataset, there are 4208 (51.8%) edible examples and 3916 (48.2%) poisonous examples. For our experiments once the decision tree model is implemented, this dataset is randomly split to a training set of 80% and a testing set of 20%. Both have very similar distribution: 51.9% edible and 48.1% poisonous for the training set, and 51.4% edible and 48.6% poisonous for the testing set. 
 
-### Requirements fulfiled
+## Requirements fulfiled:
 
 1. The program implements Quinlan’s ID3 and C4.5 decision tree learning algorithms, where the IMPORTANCE method would be based on information gain and gain ratio, respectively.
 
