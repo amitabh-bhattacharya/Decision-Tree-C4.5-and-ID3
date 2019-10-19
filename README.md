@@ -2,6 +2,8 @@
 
 In this project, Quinlan’s ID3 and C4.5 decision tree classifiers are implemented using python language. Once implemented, they are experimented on the Mushroom dataset (https://archive.ics.uci.edu/ml/datasets/mushroom) from the University of California Irvine Machine Learning Repository. The methods used for ID3 and C4.5 are Information Gain and Gain ratio respectively. For both ID3 and C4.5, the program implements a 10-fold cross validation process over the training set and the best model is picked with the highest F1 score.
 
+#### I have taken advantage of pandas dataframe to prepare (train) the tree. This is a new and a very convinient way to handle dataset. Obtaining a subset (column or row wise) of a dataframe is very easy that is a primary aspect to prepare (train) a decision tree.
+
 ## Program explanation:
 
 ###	Classes:
